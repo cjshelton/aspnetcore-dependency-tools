@@ -1,7 +1,17 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard1.4</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>WebDependencyValidator</PackageId>
+    <Title>Verifies that all dependencies of the dependency tree, starting at Controller level, have been setup in IoC.</Title>
+    <RepositoryUrl>https://github.com/cjshelton/aspnetcore-dependency-tools</RepositoryUrl>
+    <Version>1.0.0</Version>
+    <Authors>Chris Shelton</Authors>
+    <Company>Chris Shelton</Company>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.2" />
+  </ItemGroup>
 
 </Project>
