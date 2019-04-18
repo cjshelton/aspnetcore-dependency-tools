@@ -3,7 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageId>WebDependencyValidator</PackageId>
-    <Title>Verifies that all dependencies of the dependency tree, starting at Controller level, have been setup in IoC.</Title>
+    <Title>Verifies that all dependencies in the dependency chain of ASP.NET controllers have been set up in IoC.</Title>
+    <PackageDescription>For further information on the package, including how to use it, see the README in the source repository.</PackageDescription>
     <RepositoryUrl>https://github.com/cjshelton/aspnetcore-dependency-tools</RepositoryUrl>
     <Version>1.0.0</Version>
     <Authors>Chris Shelton</Authors>
